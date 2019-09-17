@@ -54,11 +54,4 @@ public class AddressResolutionUtil {
         checkCellphone(str);
         System.out.print("\"电话\": \""+num+"\", ");
         //把电话号码从信息中删除
-        mes[1]=mes[1].replace(num, "");
-        //删除末尾句号
-        mes[1]=mes[1].replace(".", "");
-		System.out.print("\"地址\"：");
-		addressResolution(mes[1]);
-		System.out.println("}");
-	}
-}
+        mes[1]=mes[1].r
